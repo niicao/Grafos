@@ -10,7 +10,7 @@ isso.
 desenhar e começou com as formas mais simples, como retângulos e triângulos.
 Em determinado momento, ao combinar as formas chegou ao desenho abaixo:
 
-![alt-text](Trabalho 1/img1.png)
+![alt-text](https://github.com/niicao/Grafos/blob/main/Trabalho%201/img1.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;Curiosamente, Bento percebeu que para este desenho, iniciando em um
 determinado ponto, não precisou tirar o lápis do papel ou retroceder os traços, e
@@ -20,13 +20,14 @@ Você como um bom computeiro, entendido de grafos, prontamente contou
 que a maneira que ele traçou o desenho pode ser entendida como um circuito
 euleriano no grafo euleriano abaixo:
 
-![alt-text](Trabalho 1/img2.png)
+![alt-text](https://github.com/niicao/Grafos/blob/main/Trabalho%201/img2.png)
 
-Como você é um bom amigo resolveu, juntamente com Bento (que de tão
+&nbsp;&nbsp;&nbsp;&nbsp;Como você é um bom amigo resolveu, juntamente com Bento (que de tão
 empolgado esqueceu totalmente de Cálculo 3!), criar um programa que verifica para
 diferentes desenhos se é possível traçá-los da mesma forma que foi feito
 anteriormente e qual a trajetória a ser seguida para obtê-los, ou seja, dado um grafo
-conexo verifica se ele é euleriano, e se for apresenta o circuito euleriano no grafo.
+conexo verifica se ele é euleriano, e[
+](https://github.com/niicao/Grafos/blob/main/Trabalho%201/img2.png) se for apresenta o circuito euleriano no grafo.
 
 ### 2. Entrada
 
@@ -44,6 +45,7 @@ extremos ligados por uma aresta
 
 &nbsp;&nbsp;&nbsp;&nbsp;Observação: os vértices são necessariamente rotulados como inteiros de 0 a
 (v -1), como no exemplo, em que v = 5.
+
 &nbsp;&nbsp;&nbsp;&nbsp;Ou seja, se temos, por exemplo, um arquivo que representa o grafo mostrado
 anteriormente, ele será dessa forma:
 
@@ -57,7 +59,7 @@ anteriormente, ele será dessa forma:
         3 4
 
 ### 3. Saída
-A saída esperada do seu programa é:
+&nbsp;&nbsp;&nbsp;&nbsp;A saída esperada do seu programa é:
 
 * A string “Sim” caso seja possível traçar o desenho da forma descrita (ou seja,
 o grafo possui circuito euleriano); ou
@@ -67,15 +69,15 @@ o grafo possui circuito euleriano); ou
 em branco.
 
 ### 4. Orientações para a confecção do código
-Ao buscar por um circuito euleriano, inicie sempre pelo vértice
+&nbsp;&nbsp;&nbsp;&nbsp;Ao buscar por um circuito euleriano, inicie sempre pelo vértice
 representado pelo valor 0, e ao procurar pelo caminho no grafo, ao escolher uma
 aresta a incluir no caminho entre várias opções possíveis, escolha sempre a
 aresta que leva ao vértice de menor valor. 
 
-Por exemplo, no grafo acima, o
+&nbsp;&nbsp;&nbsp;&nbsp;Por exemplo, no grafo acima, o
 circuito seria indicado por 0 1 2 3 1 4 3 0
 
-Na entrada, será fornecido o nome do arquivo
+&nbsp;&nbsp;&nbsp;&nbsp;Na entrada, será fornecido o nome do arquivo
 
 ### 5. Exemplos de entrada e saída
 __Entrada:__
