@@ -16,7 +16,8 @@ grafo direcionado, no qual cada vértice representa uma pessoa e cada aresta (A,
 indica que a pessoa A segue a B online. Um exemplo dessa modelagem pode ser
 visto a seguir, para um grupo de 8 pessoas que se seguem online:
 
-![alt-text]()
+![alt-text](https://github.com/niicao/Grafos/blob/main/Trabalho%203/img1.png)
+
 
 
         8 11
